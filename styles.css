@@ -1,2 +1,47 @@
-
-/* Your CSS Code here. */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #1a1a1a;
+    color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #153448;
+    padding: 24px 20px;
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+}
+nav {
+    background: #32587b;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 3px;
+    transition: background 0.3s;
+}
+nav a:hover {
+    background: #fff;
+    color: #153448;
+}
+main {
+    padding: 32px 12vw 0 12vw;
+}
+section {
+    margin-bottom: 36px;
+    background: #212c36;
+    padding: 18px 24px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+aside {
+    background: #172334;
+    padding: 14px 24px;
+    margin-bottom: 38px
