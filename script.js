@@ -1,4 +1,4 @@
-// Example: Smooth-scroll navigation effect
+// Adds smooth scrolling for navigation links
 document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', function(e) {
         const targetId = this.getAttribute('href').slice(1);
